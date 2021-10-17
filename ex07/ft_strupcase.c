@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strupcase.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: huseo <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: seohuisu <seohuisu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/17 20:16:24 by huseo             #+#    #+#             */
-/*   Updated: 2021/10/17 20:19:08 by huseo            ###   ########.fr       */
+/*   Updated: 2021/10/18 00:26:39 by seohuisu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strupcase(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i] != '\0')

@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_printable.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: huseo <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: seohuisu <seohuisu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/17 20:02:48 by huseo             #+#    #+#             */
-/*   Updated: 2021/10/17 20:10:36 by huseo            ###   ########.fr       */
+/*   Updated: 2021/10/18 00:26:57 by seohuisu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_str_is_printable(char *str)
 {
-	int	i;
-	int	j;
+	int		i;
+	int		j;
 	char	c;
 
 	i = 0;

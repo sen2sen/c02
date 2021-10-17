@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: huseo <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: seohuisu <seohuisu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/17 21:04:49 by huseo             #+#    #+#             */
-/*   Updated: 2021/10/17 21:41:32 by huseo            ###   ########.fr       */
+/*   Updated: 2021/10/18 00:21:21 by seohuisu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
-	unsigned int i;
-	unsigned int j;
+	unsigned int	i;
+	unsigned int	j;
 
 	i = 0;
 	j = 0;
@@ -29,6 +29,7 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	dest[i] = '\0';
 	return (j);
 }
+
 #include <stdio.h>
 #include <string.h>
 

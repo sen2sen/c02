@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlowcase.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: huseo <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: seohuisu <seohuisu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/17 20:21:49 by huseo             #+#    #+#             */
-/*   Updated: 2021/10/17 20:23:15 by huseo            ###   ########.fr       */
+/*   Updated: 2021/10/18 00:26:30 by seohuisu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strlowcase(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i] != '\0')

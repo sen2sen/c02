@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: huseo <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: seohuisu <seohuisu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/17 19:50:49 by huseo             #+#    #+#             */
-/*   Updated: 2021/10/17 19:55:40 by huseo            ###   ########.fr       */
+/*   Updated: 2021/10/18 00:27:19 by seohuisu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_str_is_lowercase(char *str)
 {
-	int	i;
-	int	j;
+	int		i;
+	int		j;
 	char	c;
 
 	i = 0;
